@@ -27,8 +27,8 @@ If the blanks are filled in, the story reads:
 
 The content of the story can be anything you like, so be as creative as you like. Though avoid being vulgar. Your story should satisfy the following requirements.
 
-* The title of the story and your ufll name must appear in separate headings at the top of the page.
-* You must have an ordere dlist of labels and input elements to prompt for the words
+* The title of the story and your full name must appear in separate headings at the top of the page.
+* You must have an ordered list of labels and input elements to prompt for the words
 * Your JavaScript must use at least one JavaScript variable
 * There must be between 5 and 8 missing words.
 
