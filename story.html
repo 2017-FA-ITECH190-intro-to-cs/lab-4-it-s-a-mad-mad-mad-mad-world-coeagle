@@ -3,9 +3,29 @@
       <head>
         <meta charset="utf-8" />
         <title></title>
+        <script 
+        type="text/javascript" >
+        	
+		function madlib()
+		{
+		noun = document.getElementById('noun').value;
+		adjective = document.getElementById('adjective').value;
+		name = document.getElementById('name').value;
+		team = document.getElementById('team').value;
+		animal = document.getElementById('animal').value;
+		document.getElementById('output').innerHTML=	
+			'<p>Where ' + noun +
+			'if your smart '+ adjective +
+			'than the '+ name +
+			'hurts the people on the '+ team +
+			'and it ends up effecting your' + animal + '</p>'; 
+		}      
+        </script>
+      
       </head>
+      
       <body>
-        <h1>Mad mad mad and angry</h1>
+        <h1>Mad mad mad and angry<h1>
         <ul>
           
           <li>Noun: <input type="text" id="noun" value="" /></li>
@@ -20,27 +40,12 @@
 
         </ul>
         
-        <input type="button" value="output"
-        
-		
-		onclick=
-		
-		noun = document.getElementById('noun').value;
-		adjective = document.getElementById('adjective').value;
-		name = document.getElementById('name').value;
-		team = document.getElementById('team').value;
-		animal = document.getElementById('animal').value;
-		
-		
-		
-			'<p>Where ' + noun +
-			'if your smart '+ adjective +
-			'than the '+ name +
-			'hurts the people on the '+ team +
-			'and it ends up effecting your + animal;</p> 
+        <input 
+        type="button" value="output" onclick="madlib();"
+        	/>
 			
-       <div> id="output" </div>
-       />
+       <div id="output"></div>
+       
     
        
        
